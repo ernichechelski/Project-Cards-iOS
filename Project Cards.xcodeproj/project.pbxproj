@@ -8,10 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0F57E35505F455EE12D59D40 /* Pods_Project_Cards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078729A748816E57C5C9519F /* Pods_Project_Cards.framework */; };
-		A33DFE572265F16E00081FD2 /* DeckOfCardsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33DFE562265F16E00081FD2 /* DeckOfCardsAPI.swift */; };
+		A33DFE572265F16E00081FD2 /* DeckOfCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33DFE562265F16E00081FD2 /* DeckOfCards.swift */; };
 		A33DFE59226600F900081FD2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33DFE58226600F900081FD2 /* CollectionViewCell.swift */; };
 		A33DFE5D22660F8800081FD2 /* ViewControllerContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33DFE5C22660F8800081FD2 /* ViewControllerContract.swift */; };
 		A33DFE5F22660FB000081FD2 /* ViewControllerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33DFE5E22660FB000081FD2 /* ViewControllerPresenter.swift */; };
+		A33DFE6122673EBA00081FD2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33DFE6022673EBA00081FD2 /* ViewModel.swift */; };
+		A33DFE642267400100081FD2 /* DeckOfCardsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33DFE632267400100081FD2 /* DeckOfCardsApi.swift */; };
+		A33DFE662267403700081FD2 /* DeckOfCardsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33DFE652267403700081FD2 /* DeckOfCardsService.swift */; };
+		A33DFE682267407400081FD2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33DFE672267407400081FD2 /* Model.swift */; };
+		A33DFE6A2267411800081FD2 /* DeckOfCardsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33DFE692267411800081FD2 /* DeckOfCardsRepository.swift */; };
+		A33DFE6E22674A7200081FD2 /* WinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33DFE6D22674A7200081FD2 /* WinViewController.swift */; };
 		A3D3689922650AA500A61BD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3689822650AA500A61BD4 /* AppDelegate.swift */; };
 		A3D3689B22650AA500A61BD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3689A22650AA500A61BD4 /* ViewController.swift */; };
 		A3D3689E22650AA500A61BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D3689C22650AA500A61BD4 /* Main.storyboard */; };
@@ -47,10 +53,16 @@
 		3254D45AA3ADEBA5633615E7 /* Pods-Project CardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project CardsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Project CardsTests/Pods-Project CardsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4752E3756D6514317F8C744B /* Pods_Project_CardsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_CardsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9927581C3C05092AA58075AA /* Pods-Project CardsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project CardsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Project CardsUITests/Pods-Project CardsUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A33DFE562265F16E00081FD2 /* DeckOfCardsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckOfCardsAPI.swift; sourceTree = "<group>"; };
+		A33DFE562265F16E00081FD2 /* DeckOfCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckOfCards.swift; sourceTree = "<group>"; };
 		A33DFE58226600F900081FD2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		A33DFE5C22660F8800081FD2 /* ViewControllerContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerContract.swift; sourceTree = "<group>"; };
 		A33DFE5E22660FB000081FD2 /* ViewControllerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPresenter.swift; sourceTree = "<group>"; };
+		A33DFE6022673EBA00081FD2 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A33DFE632267400100081FD2 /* DeckOfCardsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckOfCardsApi.swift; sourceTree = "<group>"; };
+		A33DFE652267403700081FD2 /* DeckOfCardsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckOfCardsService.swift; sourceTree = "<group>"; };
+		A33DFE672267407400081FD2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A33DFE692267411800081FD2 /* DeckOfCardsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckOfCardsRepository.swift; sourceTree = "<group>"; };
+		A33DFE6D22674A7200081FD2 /* WinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinViewController.swift; sourceTree = "<group>"; };
 		A3D3689522650AA500A61BD4 /* Project Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D3689822650AA500A61BD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3D3689A22650AA500A61BD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,22 +122,52 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A33DFE5A22660F6700081FD2 /* views */ = {
+		A33DFE5A22660F6700081FD2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A33DFE5B22660F6E00081FD2 /* mainView */,
+				A33DFE6C22674A5D00081FD2 /* WinView */,
+				A33DFE5B22660F6E00081FD2 /* MainView */,
 			);
-			path = views;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		A33DFE5B22660F6E00081FD2 /* mainView */ = {
+		A33DFE5B22660F6E00081FD2 /* MainView */ = {
 			isa = PBXGroup;
 			children = (
 				A33DFE5C22660F8800081FD2 /* ViewControllerContract.swift */,
 				A3D3689A22650AA500A61BD4 /* ViewController.swift */,
 				A33DFE5E22660FB000081FD2 /* ViewControllerPresenter.swift */,
 			);
-			path = mainView;
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		A33DFE6222673FCF00081FD2 /* DeckOfCardsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				A33DFE562265F16E00081FD2 /* DeckOfCards.swift */,
+				A33DFE632267400100081FD2 /* DeckOfCardsApi.swift */,
+				A33DFE652267403700081FD2 /* DeckOfCardsService.swift */,
+				A33DFE672267407400081FD2 /* Model.swift */,
+				A33DFE692267411800081FD2 /* DeckOfCardsRepository.swift */,
+			);
+			path = DeckOfCardsAPI;
+			sourceTree = "<group>";
+		};
+		A33DFE6B226742EA00081FD2 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A33DFE6222673FCF00081FD2 /* DeckOfCardsAPI */,
+				A33DFE6022673EBA00081FD2 /* ViewModel.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A33DFE6C22674A5D00081FD2 /* WinView */ = {
+			isa = PBXGroup;
+			children = (
+				A33DFE6D22674A7200081FD2 /* WinViewController.swift */,
+			);
+			path = WinView;
 			sourceTree = "<group>";
 		};
 		A3D3688C22650AA500A61BD4 = {
@@ -153,13 +195,13 @@
 		A3D3689722650AA500A61BD4 /* Project Cards */ = {
 			isa = PBXGroup;
 			children = (
-				A33DFE5A22660F6700081FD2 /* views */,
+				A33DFE5A22660F6700081FD2 /* Views */,
 				A3D3689822650AA500A61BD4 /* AppDelegate.swift */,
 				A3D3689C22650AA500A61BD4 /* Main.storyboard */,
 				A3D3689F22650AA600A61BD4 /* Assets.xcassets */,
 				A3D368A122650AA600A61BD4 /* LaunchScreen.storyboard */,
 				A3D368A422650AA600A61BD4 /* Info.plist */,
-				A33DFE562265F16E00081FD2 /* DeckOfCardsAPI.swift */,
+				A33DFE6B226742EA00081FD2 /* API */,
 				A33DFE58226600F900081FD2 /* CollectionViewCell.swift */,
 			);
 			path = "Project Cards";
@@ -334,6 +376,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Project Cards/Pods-Project Cards-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityLogger/AlamofireNetworkActivityLogger.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
@@ -344,6 +387,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityLogger.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
@@ -439,11 +483,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3D3689B22650AA500A61BD4 /* ViewController.swift in Sources */,
+				A33DFE662267403700081FD2 /* DeckOfCardsService.swift in Sources */,
 				A3D3689922650AA500A61BD4 /* AppDelegate.swift in Sources */,
+				A33DFE6E22674A7200081FD2 /* WinViewController.swift in Sources */,
+				A33DFE6A2267411800081FD2 /* DeckOfCardsRepository.swift in Sources */,
+				A33DFE642267400100081FD2 /* DeckOfCardsApi.swift in Sources */,
 				A33DFE59226600F900081FD2 /* CollectionViewCell.swift in Sources */,
+				A33DFE682267407400081FD2 /* Model.swift in Sources */,
 				A33DFE5F22660FB000081FD2 /* ViewControllerPresenter.swift in Sources */,
 				A33DFE5D22660F8800081FD2 /* ViewControllerContract.swift in Sources */,
-				A33DFE572265F16E00081FD2 /* DeckOfCardsAPI.swift in Sources */,
+				A33DFE572265F16E00081FD2 /* DeckOfCards.swift in Sources */,
+				A33DFE6122673EBA00081FD2 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,6 +2,8 @@ PODS:
   - Alamofire (4.8.2)
   - AlamofireImage (3.5.2):
     - Alamofire (~> 4.8)
+  - AlamofireNetworkActivityLogger (2.4.0):
+    - Alamofire (~> 4.8)
   - Differentiator (3.1.0)
   - RxBlocking (4.5.0):
     - RxSwift (>= 4.4.2, ~> 4.4)
@@ -21,6 +23,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 4.7)
   - AlamofireImage (~> 3.5)
+  - AlamofireNetworkActivityLogger (~> 2.4)
   - RxBlocking (~> 4.0)
   - RxCocoa (~> 4.0)
   - RxDataSources (~> 3.0)
@@ -32,6 +35,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - AlamofireImage
+    - AlamofireNetworkActivityLogger
     - Differentiator
     - RxBlocking
     - RxCocoa
@@ -43,6 +47,7 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  AlamofireNetworkActivityLogger: 6d3398c692d2c5d83b0c58793537860aca1e383d
   Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
   RxBlocking: 79413e4d916f44bb3e113c5b2cc059e36fe58910
   RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
@@ -51,6 +56,6 @@ SPEC CHECKSUMS:
   RxTest: 3ccb66bfbace0bf7df1c43a7c75d046f8ce60372
   SDWebImage: 27dd2c9ea07a2252f94557c9fbb6105ee94b74c9
 
-PODFILE CHECKSUM: 54450dacd2a281399e51233a15a09493409bfeec
+PODFILE CHECKSUM: 4ea9bfb0974e9bef6d50e48741dbb954cd880aa2
 
 COCOAPODS: 1.5.2
